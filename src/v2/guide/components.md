@@ -136,7 +136,7 @@ Vue.component('my-component-name', {
 
 Component đăng kí ở cấp toàn cục có thể được dùng trong template của bất kì đối tượng Vue gốc (`new Vue`) nào được tạo ra sau đó -- và trong tất cả các component con trên cây component của đối tượng đó.
 
-Hiện giờ thì đó là tất cả những gì bạn cần biết về đăng kí component, nhưng sau khi đọc xong trang này và hiểu thêm về component, bạn nên quay lại và đọc bản hướng dẫn đầy đủ về [đăng kí component](dang-ki-component.html).
+Hiện giờ thì đó là tất cả những gì bạn cần biết về đăng kí component, nhưng sau khi đọc xong trang này và hiểu thêm về component, bạn nên quay lại và đọc bản hướng dẫn đầy đủ về [đăng kí component](components-registration.html).
 
 ## Truyền dữ liệu xuống component con bằng prop
 
@@ -203,7 +203,7 @@ và sau đó render một component cho mỗi bài viết:
 
 Trên đây, bạn có thể thấy là chúng ta dùng `v-bind` để truyền động prop. Cách làm này đặc biệt hữu ích khi bạn không biết trước được chính xác nội dung bạn sẽ render, như khi [lấy bài viết từ một API](https://jsfiddle.net/chrisvfritz/sbLgr0ad).
 
-Hiện giờ thì đó là tất cả những gì bạn cần biết về prop, nhưng sau khi đọc xong trang này và hiểu thêm về component, bạn nên quay lại và đọc bản hướng dẫn đầy đủ về [prop](component-prop.html).
+Hiện giờ thì đó là tất cả những gì bạn cần biết về prop, nhưng sau khi đọc xong trang này và hiểu thêm về component, bạn nên quay lại và đọc bản hướng dẫn đầy đủ về [props](component-props.html).
 
 ## Một phần tử gốc đơn lập
 
@@ -424,7 +424,7 @@ Giờ thì `v-model` sẽ hoạt động ổn thỏa:
 <custom-input v-model="searchText"></custom-input>
 ```
 
-Hiện giờ thì đó là tất cả những gì bạn cần biết về các sự kiện tùy biến của component, nhưng sau khi đọc xong trang này và hiểu thêm về component, bạn nên quay lại và đọc bản hướng dẫn đầy đủ về [sự kiện tùy biến](su-kien-tuy-bien-cua-component.html).
+Hiện giờ thì đó là tất cả những gì bạn cần biết về các sự kiện tùy biến của component, nhưng sau khi đọc xong trang này và hiểu thêm về component, bạn nên quay lại và đọc bản hướng dẫn đầy đủ về [sự kiện tùy biến](components-custom-events.html).
 
 ## Phân phối nội dung với slot
 
@@ -479,7 +479,7 @@ Vue.component('alert-box', {
 
 Như bạn đã thấy trên đây, chúng ta chỉ cần thêm `<slot>` vào nơi cần thể hiện nội dung, và thế là xong!
 
-Hiện giờ thì đó là tất cả những gì bạn cần biết về slot, nhưng sau khi đọc xong trang này và hiểu thêm về component, bạn nên quay lại và đọc bản hướng dẫn đầy đủ về [slot trong component](slot-trong-component.html).
+Hiện giờ thì đó là tất cả những gì bạn cần biết về slot, nhưng sau khi đọc xong trang này và hiểu thêm về component, bạn nên quay lại và đọc bản hướng dẫn đầy đủ về [slot trong component](components-slots.html).
 
 ## Component động
 
