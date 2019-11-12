@@ -15,13 +15,13 @@ Bạn có thể sử dụng directive `v-model` để tạo ràng buộc dữ li
 ### Văn bản
 
 ``` html
-<input v-model="message" placeholder="edit me">
+<input v-model="message" placeholder="Nhập thông điệp">
 <p>Thông điệp: {{ message }}</p>
 ```
 
 {% raw %}
 <div id="example-1" class="demo">
-  <input v-model="message" placeholder="Nhập văn bản">
+  <input v-model="message" placeholder="Nhập thông điệp">
   <p>Thông điệp: {{ message }}</p>
 </div>
 <script>
